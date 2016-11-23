@@ -2,7 +2,7 @@
 #
 # This script will be executed inside the docker container
 
-cd /opt/app/
+cd /opt/ms/
 
 VERSION=`cat VERSION`
 NAME=`cat NAME`

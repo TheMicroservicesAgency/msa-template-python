@@ -1,7 +1,7 @@
 
 # msa-template-python
 
-Example of a microservice written in Python, with the [Flask](flask.pocoo.org/docs/latest/quickstart/) framework.
+Example of a microservice written in Python, with the [Flask](http://flask.pocoo.org/docs/latest/quickstart/) framework.
 
 ## Usage
 
@@ -21,13 +21,16 @@ docker run -ti -p 8080:80 msa-template-python:1.0.0
 
 - [/hello-world](/hello-world) : returns "Hello, World!"
 
+
 ## Standard endpoints
 
-- [/version](/version) : returns the version number
+- [/ms/version](/ms/version) : returns the version number
 
-- [/name](/name) : returns the name
+- [/ms/name](/ms/name) : returns the name
 
-- [/readme](/readme) : returns the readme (this file)
+- [/ms/readme.md](/ms/readme.md) : returns the readme (this file)
+
+- [/ms/readme.html](/ms/readme.html) : returns the readme as html
 
 - [/swagger/swagger.json](/swagger/swagger.json) : returns the swagger api documentation
 
@@ -35,7 +38,7 @@ docker run -ti -p 8080:80 msa-template-python:1.0.0
 
 - [/nginx/stats.json](/nginx/stats.json) : returns stats about Nginx
 
-- [/nginx/dashboard](/nginx/dashboard) : returns a dashboard displaying the stats from Nginx
+- [/nginx/stats.html](/nginx/stats.html) : returns a dashboard displaying the stats from Nginx
 
 ## About
 
