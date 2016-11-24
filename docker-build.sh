@@ -5,4 +5,4 @@
 NAME=`cat NAME`
 VERSION=`cat VERSION`
 
-docker build -t $NAME:$VERSION . && echo "- Build completed !"
+docker build -t msagency/$NAME:$VERSION . && echo "- Build completed !"
