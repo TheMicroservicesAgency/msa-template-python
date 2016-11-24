@@ -8,18 +8,18 @@ Example of a microservice written in Python, with the [Flask](http://flask.pocoo
 To build the microservice Docker image, execute the build script :
 
 ```
-./build.sh
+./docker-build.sh
 ```
 
 Once the container is created, executed it with the following command :
 
 ```
-docker run -ti -p 8080:80 msa-template-python:1.0.0
+docker run -ti -p 8080:80 msagency/msa-template-python:1.0.0
 ```
 
 ## Endpoints
 
-- [/hello-world](/hello-world) : returns "Hello, World!"
+- [/hello-world](/hello-world) : returns {"message":"Hello, World !"}
 
 
 ## Standard endpoints
@@ -42,4 +42,4 @@ docker run -ti -p 8080:80 msa-template-python:1.0.0
 
 ## About
 
-A project by the [Microservices Agency](http://microservices.agency).
+A project by the [Microservices Agency](https://microservices.agency).
