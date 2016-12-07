@@ -3,18 +3,12 @@
 
 Example of a microservice written in Python, with the [Flask](http://flask.pocoo.org/docs/latest/quickstart/) framework.
 
-## Usage
+## Quick start
 
-To build the microservice Docker image, execute the build script :
-
-```
-./docker-build.sh
-```
-
-Once the container is created, executed it with the following command :
+Execute the microservice container with the following command :
 
 ```
-docker run -ti -p 8080:80 msagency/msa-template-python:1.0.0
+docker run -ti -p 8080:80 msagency/msa-template-python
 ```
 
 ## Endpoints

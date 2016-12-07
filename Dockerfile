@@ -1,4 +1,4 @@
-FROM msagency/msa-image-python:1.0.0
+FROM msagency/msa-image-python:latest
 
 # Install the Python dependencies
 ADD requirements.txt /opt/ms/
