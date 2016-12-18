@@ -36,4 +36,4 @@ docker run -ti -p 8080:80 msagency/msa-template-python
 
 ## About
 
-A project by the [Microservices Agency](https://microservices.agency).
+A project by the [Microservices Agency](http://microservices.agency).
