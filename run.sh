@@ -20,7 +20,7 @@ echo " "
 echo " Product: $NAME, Version: $VERSION"
 echo " "
 echo " https://github.com/orgs/TheMicroservicesAgency/$NAME"
-echo " https://microservices.agency/"
+echo " http://microservices.agency/"
 echo ""
 
 echo " * Starting NGINX in the background ..."
